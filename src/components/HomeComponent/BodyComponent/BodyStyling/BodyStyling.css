@@ -1,0 +1,62 @@
+.content__top .row {
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.content__top .top__glass {
+    position: relative;
+    height: 380px;
+    width: 313px;
+    background-image: url('../../../../../public/img/glassesImage/model.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.content__top .glass__image {
+    max-width: 50%;
+    position: absolute;
+    left: 25%;
+    top: 28%;
+}
+
+.content__top .glass__info {
+    text-align: left;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(235, 167, 118, .7);
+    padding: 0 5px;
+}
+
+.glass__info .info__name {
+    color: #7c63b2;
+}
+
+.glass__info .info__desc {
+    color: #fff;
+    font-weight: 700;
+}
+
+.content__bottom {
+    position: relative;
+    text-align: left;
+    background-color: white;
+    z-index: 1;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 35px;
+}
+
+.content__bottom .glass__btn {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 10px 0;
+    transition: all .5s;
+}
+
+.content__bottom .glass__btn:hover {
+    box-shadow: 0px 15px 25px -4px rgba(150, 150, 150, 0.42)
+}
